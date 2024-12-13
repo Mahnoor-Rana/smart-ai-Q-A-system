@@ -8,3 +8,5 @@ langchain_community
 pypdf
 chromadb
 flask 
+pdfminer.six
+streamlit

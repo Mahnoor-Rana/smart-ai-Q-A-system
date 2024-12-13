@@ -18,7 +18,7 @@ from constants import CHROMA_SETTINGS
 from transformers import pipeline
 
 
-torch.mps.empty_cache()
+# torch.mps.empty_cache()
 # export PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.9
 device = torch.device("mps" if torch.has_mps else "cpu")
 checkpoint = "LaMini-T5-738M"
